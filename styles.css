@@ -1,0 +1,26 @@
+.logo {
+  width: 60px;
+}
+
+header li {
+  display: inline;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.first-nav a {
+  font-size: 20px;
+  color: #ff4f26;
+  text-transform: uppercase;
+}
+
+.second-nav a {
+  color: #ff9390;
+  font-size: 18px;
+}
+
+.second-nav img {
+  width: 22px;
+}
