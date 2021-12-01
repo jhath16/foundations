@@ -1,5 +1,25 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .logo {
   width: 60px;
+  float: left;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding: 20px 10%;
 }
 
 header li {
@@ -10,10 +30,23 @@ header a {
   text-decoration: none;
 }
 
+.first-nav {
+  float: left;
+  margin-left: 12px;
+}
+
+.first-nav li {
+  margin: 0 5px;
+}
+
 .first-nav a {
   font-size: 20px;
   color: #ff4f26;
   text-transform: uppercase;
+}
+
+.second-nav {
+  float: right;
 }
 
 .second-nav a {
@@ -21,6 +54,16 @@ header a {
   font-size: 18px;
 }
 
+.second-nav li {
+  margin: 0 7px;
+}
+
 .second-nav img {
   width: 22px;
+}
+
+.selected a {
+  color: #b42801; /* darker text */
+  border-bottom: 4px solid #fcc2c1;
+  padding-bottom: 2px;
 }
